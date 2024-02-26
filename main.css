@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+.campo {
+    margin: 10px;
+    font-weight: bold;
+    display:grid;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
